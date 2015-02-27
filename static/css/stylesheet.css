@@ -87,7 +87,7 @@
 
 .jumbotron:after {
      content:"";
-     background-image: url("../images/moodback.jpg");
+     background-image: url("../images/smoke_background.jpg");
      opacity: 0.7;
      top: 0;
      left: 0;
@@ -237,13 +237,14 @@ h1, h2, h3, h4 {
 
 p.mood-name{
     position:absolute;
-    padding-top:35px;
+    padding-top:40px;
     padding-left:5px;
     padding-right:10px;
     text-align: left;
     font-family: FrontBoxFont;
     font-size:16pt;
     z-index:1000;
+    font-weight: 900;
 }
 
 .mood-container{
@@ -270,4 +271,50 @@ span.fave_button{
 .recommend-image{
     max-width:120px;
     max-height:120px;
+}
+
+.boxHead{
+    padding-left: 5px;
+    /*border-style: solid;*/
+    border-width: 5px;
+    text-align: left;
+    margin:-50px;
+}
+
+.ChooseHeadAlt{
+    font-family: ChooseFont;
+    font-weight: bold;
+    text-align: left;
+    color:#FFFFFF;
+    vertical-align: bottom;
+}
+.altBoxes{
+    padding-left: 10px;
+    border-style:solid;
+    border-width: 2px;
+    margin: 5px;
+    text-align: center;
+}
+.selectButton{
+    -webkit-box-shadow: 0px 1px 3px #70DB70;
+    -moz-box-shadow: 0px 1px 3px #70DB70;
+    box-shadow: 0px 1px 3px #70DB70;
+}
+.btn-custom {
+  background-color: hsl(100, 51%, 45%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#72c44a", endColorstr="#5fad38");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#72c44a), to(#5fad38));
+  background-image: -moz-linear-gradient(top, #72c44a, #5fad38);
+  background-image: -ms-linear-gradient(top, #72c44a, #5fad38);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #72c44a), color-stop(100%, #5fad38));
+  background-image: -webkit-linear-gradient(top, #72c44a, #5fad38);
+  background-image: -o-linear-gradient(top, #72c44a, #5fad38);
+  background-image: linear-gradient(#72c44a, #5fad38);
+  border-color: #5fad38 #5fad38 hsl(100, 51%, 43%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.13);
+  -webkit-font-smoothing: antialiased;
+  margin:5px;
+  text-align: left;
 }
